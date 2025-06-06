@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js CI](https://github.com/username/edit-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/username/edit-mcp/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/edit-mcp.svg)](https://www.npmjs.com/package/edit-mcp)
+
 
 Edit-MCP is a Model Context Protocol (MCP) server that integrates with Microsoft's Edit tool to provide advanced file editing capabilities to AI systems. It follows a hybrid architecture that combines direct file system operations for performance with Microsoft Edit integration for complex editing tasks.
 
