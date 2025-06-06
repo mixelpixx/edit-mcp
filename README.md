@@ -59,7 +59,7 @@ Edit-MCP follows a hybrid architecture with the following components:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/edit-mcp.git
+git clone https://github.com/mixelpixx/edit-mcp.git
 cd edit-mcp
 
 # Install dependencies
