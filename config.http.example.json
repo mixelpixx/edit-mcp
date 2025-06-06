@@ -1,0 +1,19 @@
+{
+  "editExecutable": "edit",
+  "maxEditInstances": 5,
+  "instanceTimeout": 300000,
+  "port": 3000,
+  "debug": false,
+  "useStdio": false,
+  "corsOrigins": ["http://localhost:*", "https://localhost:*"],
+  "rateLimitWindowMs": 900000,
+  "rateLimitMax": 100,
+  "authEnabled": false,
+  "apiKey": "your-api-key-here",
+  "simpleOperationThreshold": 1000,
+  "complexityFactors": {
+    "fileSize": 1.0,
+    "operationComplexity": 2.0,
+    "multiFileOperation": 3.0
+  }
+}

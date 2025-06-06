@@ -1,0 +1,62 @@
+{
+  "name": "edit-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Microsoft Edit",
+  "main": "dist/index.js",
+  "bin": {
+    "edit-mcp": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/edit-mcp.git"
+  },
+  "homepage": "https://github.com/username/edit-mcp",
+  "bugs": {
+    "url": "https://github.com/username/edit-mcp/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch",
+    "stdio": "ts-node src/index.ts --stdio",
+    "http": "ts-node src/index.ts --port 3000",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint --ext .ts,.js src/",
+    "lint:fix": "eslint --ext .ts,.js src/ --fix",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "edit",
+    "microsoft"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/body-parser": "^1.19.5",
+    "@types/morgan": "^1.9.9"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "jsonrpc-lite": "^2.2.0",
+    "uuid": "^11.1.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "morgan": "^1.10.0"
+  }
+}

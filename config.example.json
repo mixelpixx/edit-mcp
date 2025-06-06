@@ -1,0 +1,25 @@
+{
+  "editMCP": {
+    "editExecutable": "edit",
+    "maxEditInstances": 5,
+    "instanceTimeout": 300000,
+    "caching": {
+      "enabled": true,
+      "maxCacheSize": "100MB",
+      "ttl": 3600
+    },
+    "routing": {
+      "simpleOperationThreshold": 1000,
+      "complexityFactors": {
+        "fileSize": 0.3,
+        "operationType": 0.4,
+        "contextRequirement": 0.3
+      }
+    },
+    "performance": {
+      "batchOperationThreshold": 50,
+      "maxConcurrentOperations": 10,
+      "streamingThreshold": "10MB"
+    }
+  }
+}
